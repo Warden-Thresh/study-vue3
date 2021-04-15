@@ -10,6 +10,8 @@ const About = {template: '<div>About</div>'}
 const routes = [
     {path: '/', component: Home},
     {path: '/about', component: About},
+    {path: '/todo',
+        component: () => import('../views/todo/index.vue')}
 ]
 
 // 3. 创建路由实例并传递 `routes` 配置

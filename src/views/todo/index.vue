@@ -3,6 +3,7 @@
     <a-layout>
       <a-layout-header>待办事项</a-layout-header>
       <a-layout-content>内容</a-layout-content>
+       <div><el-button type="primary">主要按钮</el-button></div>
     </a-layout>
   </div>
 </template>
